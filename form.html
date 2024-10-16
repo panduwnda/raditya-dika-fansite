@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulir Fans Raditya Dika</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container-fluid bg-primary text-white text-center py-3">
+      <h1>Formulir Pendaftaran Fans Raditya Dika</h1>
+    </header>
+
+    <!-- Formulir -->
+    <div class="container mt-4">
+      <h2 class="mb-3">Daftarkan Diri Anda sebagai Fans Resmi!</h2>
+      <form action="index.html" method="GET" class="p-4 bg-light rounded-lg shadow-lg">
+        <div class="form-group">
+          <label for="name">Nama Lengkap:</label>
+          <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="dob">Tanggal Lahir:</label>
+          <input type="date" class="form-control" id="dob" name="dob" />
+        </div>
+        <div class="form-group">
+          <label>Jenis Kelamin:</label><br />
+          <input type="radio" name="gender" value="Laki-laki" id="male" />
+          <label for="male">Laki-laki</label><br />
+          <input type="radio" name="gender" value="Perempuan" id="female" />
+          <label for="female">Perempuan</label>
+        </div>
+        <div class="form-group">
+          <label for="favorite">Idola Favorit:</label><br />
+          <input type="checkbox" id="idol1" name="idol1" value="Kucing Raditya" />
+          <label for="idol1">Kucing Raditya</label><br />
+          <input type="checkbox" id="idol2" name="idol2" value="Stand-up Comedy Raditya" />
+          <label for="idol2">Stand-up Comedy Raditya</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white text-center py-3 mt-4">
+      <p>© 2024 Raditya Dika Fansite - Fans Raditya Dika adalah yang terbaik!</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
