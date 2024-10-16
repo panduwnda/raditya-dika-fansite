@@ -1,0 +1,76 @@
+/* Warna utama diubah menjadi perpaduan soft pink dan warna netral */
+header {
+  background-color: #ffb6c1; /* Light Pink */
+  color: white;
+}
+
+footer {
+  background-color: #c71585; /* Medium Violet Red */
+  color: white;
+}
+
+body {
+  background-color: #f8f9fa; /* Light Gray */
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+  background-color: #ff6f91; /* Soft Deep Pink */
+  border-color: #ff6f91;
+}
+
+.btn-primary:hover {
+  background-color: #c71585; /* Medium Violet Red */
+  border-color: #c71585;
+}
+
+/* .table-hover tbody tr:hover {
+  background-color: #ffe4e6; /* Soft Pink Hover 
+}*/
+
+.bg-primary {
+  background-color: #ffb6c1 !important; /* Light Pink */
+}
+
+/* Mengubah warna teks pada navigasi */
+.nav-link {
+  color: #c71585 !important; /* Medium Violet Red untuk link tidak aktif */
+}
+
+.nav-link.active {
+  background-color: #ff6f91 !important; /* Soft Deep Pink untuk link aktif */
+  color: white !important; /* Teks putih agar kontras pada link aktif */
+}
+
+/* Atur warna hover agar tidak berubah menjadi biru */
+.nav-link:hover {
+  color: #ff6f91 !important; /* Warna pink lembut saat link dihover */
+  text-decoration: none; /* Opsional: untuk menghilangkan underline */
+}
+
+img {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow yang ringan untuk efek modern */
+}
+
+/* Border soft pada card dan section */
+.main-section {
+  background-color: white;
+  border: 1px solid #ffccd5; /* Light Pink Border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  header {
+    text-align: center;
+  }
+}
